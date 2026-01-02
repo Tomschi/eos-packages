@@ -8,7 +8,7 @@ PKGS=(
 
 echo
 echo "INSTALLING: ${PKGS[@]}"
-yay -S --noconfirm --needed "${PKGS[@]}"
+yay -Sqq --noconfirm --needed "${PKGS[@]}"
 
 echo
 echo "Done!"

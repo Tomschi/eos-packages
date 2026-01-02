@@ -7,7 +7,7 @@ PKGS=(
 
 echo
 echo "INSTALLING: ${PKGS[@]}"
-sudo pacman -S --noconfirm --needed "${PKGS[@]}"
+sudo pacman -Sqq --noconfirm --needed "${PKGS[@]}"
 
 echo
 echo "Done!"
