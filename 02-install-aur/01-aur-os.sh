@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
 PKGS=(
-    'oh-my-posh-bin'
-#    'podman'
-#    'podman-compose'
+    'grub-btrfs'
 )
 
 echo
