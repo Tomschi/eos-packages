@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 PKGS=(
-    'grub-btrfs'
+    'yabsnap'
 )
 
 echo
