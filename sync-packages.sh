@@ -4,20 +4,20 @@
 set -e
 
 # Get the directory where this script is located
-EOS_SETUP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+EOS_PACKAGES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-for script in "$EOS_SETUP_DIR"/"01-install-pacman"/*.sh; do
+for script in "$EOS_PACKAGES_DIR"/"01-install-pacman"/*.sh; do
   "$script"
 done
 
-for script in "$EOS_SETUP_DIR"/"02-install-aur"/*.sh; do
+for script in "$EOS_PACKAGES_DIR"/"02-install-aur"/*.sh; do
   "$script"
 done
 
-for script in "$EOS_SETUP_DIR"/"03-install-flatpak"/*.sh; do
+for script in "$EOS_PACKAGES_DIR"/"03-install-flatpak"/*.sh; do
   "$script"
 done
 
-for script in "$EOS_SETUP_DIR"/"09-uninstall"/*.sh; do
+for script in "$EOS_PACKAGES_DIR"/"09-uninstall"/*.sh; do
   "$script"
 done
