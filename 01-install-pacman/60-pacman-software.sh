@@ -2,6 +2,7 @@
 
 PKGS=(
 
+    'keepassxc'
     'libreoffice-still'
     'torbrowser-launcher'
     'vlc'
