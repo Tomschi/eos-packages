@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
 PKGS=(
+
+    'libreoffice-still'
     'torbrowser-launcher'
     'vlc'
+
 )
 
 echo
