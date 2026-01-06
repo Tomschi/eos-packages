@@ -4,6 +4,7 @@ PKGS=(
     'linux-lts'
     'linux-lts-headers'
     'grub-btrfs'
+    'inotify-tools'
 )
 
 echo
