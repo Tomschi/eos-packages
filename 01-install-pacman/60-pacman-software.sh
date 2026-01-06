@@ -4,6 +4,7 @@ PKGS=(
 
     'keepassxc'
     'libreoffice-still'
+    'obsidian'
     'torbrowser-launcher'
     'vlc'
 
